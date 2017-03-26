@@ -48,7 +48,7 @@ export default class EditTitleComponent extends React.Component {
                                 <div>
                                     <FlatButton label="save" primary={true} type="submit"
                                                 onClick={this.saveCard.bind(this)}/>
-                                    <span style={styles.closeButton} onClick={this.toggleCardEdit.bind(this)}>x</span>
+                                    {/*<span style={styles.closeButton} onClick={this.toggleCardEdit.bind(this)}>x</span>*/}
                                 </div> : null}
 
                         </div>
@@ -63,7 +63,7 @@ export default class EditTitleComponent extends React.Component {
 
     onInputBlur() {
         if (this.props.multiLine) {
-            return;
+            this.saveCard();
         }
         this.setState((prevState, props) => {
             return {
