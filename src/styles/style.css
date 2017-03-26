@@ -1,0 +1,78 @@
+.dialog-title {
+    margin: 0px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.dialog-title-edit {
+    margin: 0px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description-container {
+    padding-top: 10px;
+}
+
+.card-description-text {
+    max-width: 100vw;
+    word-wrap: break-word;
+}
+
+.dropdown-menu {
+    width: 90% !important;
+}
+
+.list-component-wrapper {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 1.5em;
+    border: 1px solid black;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.list-component-title {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.list-component-title p {
+    margin: 0px;
+    padding-top: 0.7em;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-wrapper {
+    padding: 5px;
+}
+
+.card-content {
+    padding: 10px;
+    margin: 0;
+}
+
+.add-new-card {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.add-new-list {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.add-new-card-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
